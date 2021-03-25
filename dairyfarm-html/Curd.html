@@ -733,32 +733,36 @@
                 <h4><strong>Our Location</strong></h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15556.071422400582!2d80.1439756!3d12.9065733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x843b7becbe56bc7d!2sIndian%20Milk!5e0!3m2!1sen!2sin!4v1614162252234!5m2!1sen!2sin" width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy" class="mt-3"></iframe>
             </div>
-            <div class="col-lg-6 col-sm-6 col-md-6 p-1">
-                
+            <div class="col-lg-6 col-sm-6 col-md-6 p-2">
+            <div> 
+                  
                 <h4 style="color: #fff;"><strong>Contact Us</strong></h2>
-                    <form id="sc_form_282_form" class="sc_input_hover_default" data-formtype="form_1" method="POST" action="">
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+                     onload="if(submitted) {window.location='https://indianmilk.in/';}"></iframe> 
+                    <form id="sc_form_282_form" class="sc_input_hover_default" data-formtype="form_1" method="POST" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeXW7zGTABbCgHEj5T2doNrL2vY62vkIiEMQA39mj9dFbcj4g/formResponse" target="hidden_iframe" onsubmit="return validateForm(); " >
                         <div class="sc_form_info">
                             <div class="sc_form_item sc_form_field label_over p-3">
-                                <input id="sc_form_username" type="text" name="entry." placeholder="Name *" aria-required="true">
+                                <input id="c-name" type="text" name="entry.1621841316" placeholder="Name *" aria-required="true">
                             </div>
                             <div class="sc_form_item sc_form_field label_over p-3">
-                                <input id="sc_form_email" type="email" name="entry." placeholder="E-mail *" aria-required="true">
+                                <input id="c-email" type="email" name="entry.413674902" placeholder="E-mail *" aria-required="true">
                             </div>
                             <div class="sc_form_item sc_form_field label_over p-3">
-                                <input id="sc_form_mobile" type="text" name="entry." placeholder="Mobile *" aria-required="true">
+                                <input id="c-phone" type="text" name="entry.1699219625" placeholder="Mobile *" aria-required="true">
                             </div>
                             <div class="sc_form_item sc_form_field label_over p-3">
-                                <input id="Address" type="text" name="entry." placeholder="Address *" aria-required="true">
+                                <input id="c-address" type="text" name="entry.1416012680" placeholder="Address *" aria-required="true">
                             </div>
                         </div>
                         <div class="sc_form_item sc_form_message p-3">
-                            <textarea id="sc_form_message" name="entry." placeholder="Message" aria-required="true"></textarea>
+                            <textarea id="c-message" name="entry.1196169651" placeholder="Message" aria-required="true"></textarea>
                         </div>
                         <div class="sc_form_item sc_form_button p-3">
                             <button type="submit">Send Message</button>
                         </div>
                         <div class="result sc_infobox"></div>
                     </form>
+                </div>
                 </div>
                 <!-- <div class="col-lg-2"></div> -->
                     </div>
@@ -927,7 +931,7 @@
 <script type='text/javascript' src='js/vendor/underscore.min.js'></script>
 <script type='text/javascript' src='js/custom/util.min.js'></script>
 <script type='text/javascript' src='js/vendor/woo/add-to-cart-variation.min.js'></script>
-
+<script src="./Contact form script/contactformscript.js"></script>
 </body>
 
 </html>
